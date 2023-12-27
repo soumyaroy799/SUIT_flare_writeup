@@ -1,0 +1,85 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{natbib} %Imports biblatex package
+\usepackage{aas_macros} %AAS macro for .bib
+\PassOptionsToPackage{hyphens}{url}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{xcolor}
+\usepackage{ulem}
+
+\newcommand{\sr}[1]{{\bf\color{red} [#1]}}
+\newcommand{\lf}[1]{{\color{magenta}{#1}}}
+\newcommand{\sm}[1]{{\color{orange}{#1}}}
+
+\title{SUIT flare writeup}
+\author{soumyaroy799 }
+\date{November 2023}
+
+\begin{document}
+
+\maketitle
+
+\section{Flares and Eruptions}
+
+Solar flares are the most powerful magnetic events in the solar system. They are described as a sudden increase in brightness in localized areas on the Sun. Within tens of minutes, they can release over $10^{32}$ erg of energy, which is emitted across the entire electromagnetic spectrum from radio to $\gamma$-rays. A large fraction of the energy release is first in the form of the kinetic energy of non-thermal particles in the flare volume. This energy is sufficient to account for the bolometric radiation increase when the particles lose their energy collisionally. Flares can also launch high-energy} particles into the interplanetary medium. Most flares occur in magnetic active regions, and \cite{emslie12} found that the amount of energy released in an eruptive event - a flare and CME - is around 30\% of the free energy stored  in the magnetic system. The term ``flare" is generally used explicitly for the entire magnetically-driven event's electromagnetic radiation. This radiation accounts for around 20\% of the total energy liberated, with the rest accounted for by the CME.
+
+Various studies of solar flares over the last few decades have investigated on their properties in the corona - e.g. electron number density, temperature and velocity -  with X-ray imaging \citep[Hinode/XRT,][]{xrt} and spectroscopy \citep[SO/STIX,][]{stix} and extreme ultraviolet (EUV) imaging \citep[SDO/AIA,][]{aia}, \citep[GOES/SUVI,][]{suvi}, \citep[STEREO,][]{stereo} and spectroscopy \citep[Hinode/EIS,][]{2007SoPh..243...19C}. The Interface Region Imaging Spectrograph \citep[IRIS,
+][]{iris} allowed us to probe the chromosphere and the transition region. Nonetheless many recent solar instruments, provide us only targeted Region of Interest(RoI) observations of the solar surface. The Solar Ultraviolet Imaging Telescope (SUIT) \citep{ghosh16, article} onboard theAditya-L1 satellite \citep{adityal1} will have the capability to probe different heights of the solar atmosphere in the photosphere and chromosphere, with its eleven science filters (eight narrow bands and three broad bands), to help us understand the various processes that transport mass and energy from one layer to another. SUIT will provide full disk as well as partial disk images of the Sun with a pixel size of $0.7"$. Through SUIT imaging, we will be able to resolve solar flares spatially on the surface of the Sun in the near ultra-violet (NUV).  The NUV is of critical interest for flares since it reveals the flare chromosphere; the region where the majority of a flare's energy is radiated, and where there are indications that early signs of flares may be found \citep{2020ApJ...891...17P}. SUIT will therefore help address the build-up and triggering of flares as well their overall evolution, and how their energy is dissipated. In addition, SUIT will be able to measure the spatially resolved solar spectral irradiance within the wavelength range that is central for studying the chemistry of oxygen and ozone in the Earth's stratosphere.
+
+Some of the critical science topics regarding flares are discussed here, including:
+
+%%%%%%%%
+\begin{itemize}
+    \item Spectral energy distribution of flares in Near Ultraviolet (NUV).
+    \item Formation mechanism and origin of White Light Flares (WLF).
+    \item Structure and evolution of flare footpoints
+    \item Energy deposition from the chromosphere to corona
+\end{itemize}
+ These explorations will be carried out in coordination with other instruments onboard Aditya-L1 \citep{adityal1} such as HEL1OS \citep{adityaxspec17}, and SoLEXS \citep{solexs} and with existing missions e.g. AIA/SDO \citep{aia}, XRT/Hinode \citep{xrt}, IRIS \citep{iris}.
+%%%%%%%%
+
+%%%%%%%%############%%%%%%%%%%%
+\subsection{Spectral energy distribution of flares in the near ultraviolet and the energy deposition across various layers}
+%%%%%%%%############%%%%%%%%%%%
+
+\textit{\textbf{What fraction of the total energy budget is radiated in the NUV in solar flares? How does the energy budget in the NUV wavelength range change depending on the flare energy?%GOES class of the flare?
+How does the deposition of energy across various layers of the Sun change during the evolution of the flares? What does this tell us about the relevant physical process related to the energy release and transport in the flares?}}
+
+\vspace{0.2in}
+ The majority of flare energy is released in the visible and UV wavelength range \citep{woods06}. \cite{woods04} showed that about 77\% of the energy is released in the wavelength range $>$ 200 nm, and only $\sim$23\% is seen in extreme ultraviolet (EUV) and soft X-ray (SXR), i.e., below 200 nm \citep{Nei_1989,neidig93,kretzschmar11}. The energy content in hard X-rays (HXR) is a tiny fraction of the total energy budget, but this wavelength range is crucial in understanding the energization process \citep{holeman11} as from this the energy budget in non-thermal electrons can be deduced.To develop a comprehensive understanding of solar flares, it is essential to perform multi-wavelength studies, but despite many observations of the Sun and solar flares in various wavelengths the spectral energy distribution of the radiated energy from flares - a very basic property - is still poorly understood. The first solar flares were observed from the ground in the visible domain \citep{carrington1859,neidig93}, and it is also well known that flares emit strongly in spectral lines in the visible domain, mainly H$\alpha$ and Ca II 8542~\AA \citep{canfield90,falchi92,heinzel94}. However, the lesser-understood component of visible and near-ultraviolet (NUV) emission is the enhancement of the continuum. The study of white-light (WL) flares has proven to be very difficult because they have a very short duration and low contrast against the background, making their observation from Earth rare and of poor quality, though a number of observations in the red, green and blue broad filters from Hinode/SOT exist \citep[e.g.][]{2017ApJ...850..204W}, as well as continuum observations from Yohkoh \citep{2003A&A...409.1107M} and TRACE \citep{2006SoPh..234...79H}
+ Flares in the NUV in wavelengths $\leq 350~nm$ are not observable from any ground-based instrumentation as most of the NUV gets absorbed in the upper atmosphere, thus requiring space-based observations.
+
+The entire picture of a solar eruptive event encompasses energy release, energy transport through the solar corona and chromosphere, and in many cases also the expulsion of a coronal mass ejection (CME). The magnetic free energy stored stressed active region field is released and a large fraction of this is converted to the kinetic energy of accelerated particles, and most likely other forms such as plasma waves. Thereafter, this released energy is converted into heat, radiation, kinetic and thermal energy of evaporated plasma. In some cases, some of the free energy is also transformed into the kinetic energy of the CME and the energy of the solar energetic particles (SEPs). Quantifying the different forms of energy is crucial for constraining various aspects of flare models e.g. the magnetic reconnection, heating, conversion of the kinetic energy of non-thermal particles into the thermal energy of the evaporating plasma, and the particle acceleration process. Several studies over the past decade have tried to characterize various forms of energies involved across various layers \citep{stoiser07,emslie12,inglis14,warmuth16a,warmuth16b,aschwanden17}. We will use SUIT observations along with observations from instruments onboard Aditya-L1 SoLEXS, HEL1OS (Full disk integrated Hard and Soft X-ray spectra $\Rightarrow$ thermal structure and composition) and existing instruments e.g. SDO/AIA(EUV $\Rightarrow$ Coronal Plasma $\sim$ few MK to tens of MK), Hinode/XRT(Soft X-ray $\Rightarrow$ Coronal Plasma $\sim$ tens of MK), IRIS (NUV $\Rightarrow$ chromospheric plasma), GOES/SUVI to characterize the deposition of energy across various layers and temperature structure of the solar atmosphere. In addition to this, the SUIT observations from photospheric \ and chromospheric heights will be used as input to the Ultraviolet Footpoint Calorimeter method (UFC, \citealt{qiu12,liu13}) to constrain heating profiles of the events. These heating profiles are used as input to 1D loop models e.g. EBTEL \citep{klimchuk08}, HYDRAD \citep{bradshaw13} to synthesize light curves for AIA, and XRT observations. The agreement between the synthesized and observed light curves constrains various underlying parameters for the flare simulations.
+
+%%%%%%%%############%%%%%%%%%%%
+\subsection{Formation mechanism and origin of white light flares (WLF)}
+%%%%%%%%############%%%%%%%%%%%
+
+\textit{\textbf{What physical mechanism is responsible for the creation of WLFs? At what height of the solar atmosphere does the WL enhancement originate?}}
+
+\vspace{0.2in}
+A flare is classified as a WLF when it shows an enhancement in the optical continuum \citep{svestka66, neidig93}. Though it was previously thought that WL emission was observable only in the larges flares, superposed epoch analysis by \cite{kretzschmar11} indicates that flares from GOES class C to X show WL enhancement and a significant portion of the energy budget is radiated in the optical continuum. More precisely, the WLFs show an enhancement in continuum wavelengths greater than 3600~{\AA} \citep{machado89}, mainly in the Paschen and parts of the Balmer continuum. Some WLFs exhibit the Balmer jump at $\lambda$~=~3646~{\AA}, which is the signature of hydrogen recombination. The WLFs are classified as ``Type I" and ``Type II" \citep{machado89} depending on whether or not the flare exhibits the Balmer jump. Several studies have shown that the WLF correlates very well, both spatially and temporally, with hard X-ray (HXR) and microwave emission from flares \citep{fletcher07, watanabe10, krucker11, kerr14}. The close correlation between HXR and optical sources and timing strongly suggests that the non-thermal electrons that generate flare footpoint HXR emission are also responsible for the WLF emission.
+
+The origin of the WLFs, i.e., the physical process responsible for generating the continuum and its location in the solar atmosphere, is still highly uncertain. In the most common view, WLFs are powered by non-thermal electrons \citep[though models involving dissipation of Alfv\'en waves have also been proposed][]{1982SoPh...80...99E,2013ApJ...765...81R}. Depending on how energetic the electrons are they will penetrate to different depths in the chromosphere. The WL emission may be formed in the chromosphere, as the H free-bound emission following increased thermal or collisional ionisation which would show the Balmer jump. But there can also be a component from the photosphere due to `backwarming' by chromospheric radiation, leading to heating, and enhanced $\mathrm{H}^{-}$ free-free emission. Recent studies show that the WL and HXR footpoint centroids are cospatial both in horizontal and vertical positioning \cite{2006SoPh..234...79H,oliveros12,krucker15} with heights consistent with low- to mid-chromosphere, while \cite{2010ApJ...722.1514P} showed that one WLF ribbon was consistent with a low, i.e. chromospheric, opacity source. SUIT NB6, BB3 and NB7 probe the continuum on either side of the Balmer jump (364.6 nm), while NB1 observes the upper photospheric continuum (214 nm). With the SUIT spatial resolution at these wavelengths, we will probe the relative change in intensity during the evolution of the flare in these wavelength bands to search for the presence or absence of the Balmer jump, or alternatively consistency with the enhanced blackbody that one would expect from photospheric backwarming. This analysis can also help us to resolve the height of WL emission from a limb flare.  
+
+%%%%%%%%############%%%%%%%%%%%
+\subsection{Structure and evolution of flare footpoints}
+%%%%%%%%############%%%%%%%%%%%
+
+\textit{\textbf{How is the evolution of flare ribbons and footpoints connected to the overlying three-dimensional field structure? What does the evolution tell us about particle acceleration and other heating processes? How is the pre- and post-flare reconnection connected to the evolution of footpoints? Can the evolution of the footpoints enable us to comment on processes happening in the current sheet?}}
+
+\vspace{0.2in}
+Flare ribbons and footpoints develop due to the dissipation of energy from non-thermal electrons, which are accelerated during coronal magnetic reconnection and reconfiguration, and collide with the denser chromosphere. This leads to localized heating in the the brightest parts of the flare ribbons, which, in this picture, are associated with the reconnecting magnetic field at that instant. The evolution of the ribbons provides insight into the temporal and spatial scales, and the magnitude of the energy deposition of the associated flare. This provides a direct connection to the evolving coronal magnetic field. When conjugate ribbons evolve over time, separating from each other, it also indirectly reflects the gradual reconfiguration of the coronal magnetic field. The motion of the ribbons as a whole, as well as individualfootpoint sources within the ribbons, can be used to estimate the coronal magnetic field's reconnection rate \citep{isobe02,qiu02,fletcher09,liu18,qiu22,canon23}. 
+
+Due to the magnetic connectivity, the processes happening at the flaring current sheet must be manifested at the flare ribbon dynamics at some level \citep{forbes2000, naus22, juraj19, sindhuja19, brannon15}. \cite{french21} commented on instabilities developing in the current sheet from the dynamics of the flare ribbons, while \citep{2021ApJ...920..102W}  demonstrated that the evolving spiral patterns in the ribbons are consistent with signatures of tearing modes in the current sheet. To image and track these tracers of coronal reconnection, SUIT's flare mode will enable us to have high cadence observations of the footpoints in the chromospheric Mg II line. Coordinated observations with IRIS, SDO/AIA and SDO/HMI will be useful in commenting on the magnetic connectivity and signatures of its evolution from the upper photosphere to coronal heights. 
+
+In addition, at smaller scales, the flare ribbons show numerous small-scale emission sources. These sources appear different across various wavelengths. This observation implies a height-dependent deposition of energy in those sites, that is connected across layers. The difference in the size of the sources has been attributed to the narrowing of the chromospheric flux tube with depth in the solar atmosphere\citep{xu12, jing16, sharykin14}. The individual small sources also exhibit a structure of sharp leading edge and a diffuse halo \citep{neidig93, hudson06, xu06, isobe07}. This structure may be a result of differences in heating due to two separate heating sources, direct heating by the energetic particles and indirect heating by radiative back warming in the diffuse halo \citep{machado89, neidig93, xu06}. This diffuse emission can be used to comment on the effect of the direct heating from the energetic particles on the surrounding plasma environment \citep{ashfield22, mulay23}. Near-simultaneous observations from SUIT in flare mode in NB2, 3, 4 \& 5 (Mg II h and k line and their red \& blue wings)  along with NB8 (Ca II h) and NB2 (upper photospheric continuum) will enable us to probe the evolution of the ribbons across various heights and comment on the indirect heating process.
+
+\vspace{0.2in}
+
+
+
+\bibliography{mybib}{}
+\bibliographystyle{aasjournal}
+
+\end{document}
